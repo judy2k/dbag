@@ -1,14 +1,14 @@
-# DBag
+# Dicebag
 
 An infinite bag of dice.
 
 ```python3
->>> import dbag
->>> dbag.roll_d6()
+>>> import dicebag
+>>> dicebag.roll_d6()
 5
->>> dbag.roll_3d6()
+>>> dicebag.roll_3d6()
 9
->>> dbag.roll_2d50()
+>>> dicebag.roll_2d50()
 43
 ```
 
