@@ -11,6 +11,7 @@ def _roll_func(count, sides):
     """
     Return a function which will roll a die with a number of `sides`, `count` times, and return the total.
     """
+
     def _roll():
         return sum(random.randint(1, sides) for _ in range(count))
 
