@@ -12,6 +12,7 @@ setup(
     version="0.0.1",
     description="An infinite bag of dice.",
     long_description=long_description,
+    long_description_content_type='text/markdown',
     author="Mark Smith",
     author_email="judy@judy.co.uk",
     license="MIT",
@@ -23,6 +24,6 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
     ],
-    py_modules="dicebag",
+    py_modules=["dicebag"],
     python_requires=">=3.6.0",  # f-strings
 )
